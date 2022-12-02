@@ -1,0 +1,23 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.pagination {
+    display: flex;
+    list-style-type: none;
+    padding: 8px 16px;
+}
+
+.page-item {
+    margin-right: 15px;
+}
+
+.page-link {
+    padding: 0.5rem;
+    background-color: black;
+    color: aqua;
+    cursor: pointer;
+}
